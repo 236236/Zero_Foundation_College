@@ -1,0 +1,39 @@
+.head {
+    top: 0;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: rgb(91, 96, 100);    
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.head_ {
+    float: left;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background-color: rgb(196, 199, 201);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+table {
+    overflow: auto;
+    height: 150px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}

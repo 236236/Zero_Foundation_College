@@ -1,0 +1,25 @@
+.head {
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 1000px;
+    /* margin-top: 50; */
+    background-color: rgb(127, 172, 255);
+    color: white;
+}
+
+.content {
+    margin-left: 220px;
+    overflow: auto;
+}
+table {
+    border-spacing: 10px 10px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}

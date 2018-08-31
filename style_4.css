@@ -1,0 +1,113 @@
+/* .left {
+    position: absolute;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    left: 0;
+    background-color: blue;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-color: red;
+} */
+
+
+.two-column-1,
+.two-column-2,
+.two-column-3,
+.three-column-1,
+.three-column-2 {
+    height: 100px;
+}
+
+hr {
+    background-color: black;
+}
+
+.two-1-left {
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    left: 0;
+    background-color: blue;
+}
+.two-1-right {
+    position: absolute;
+    width: 70%;
+    height: 100px;
+    right: 0;
+    background-color: rgb(255, 0, 0);
+}
+
+.two-2-left {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+.two-2-right {
+    height: 100px;
+    background-color: red;
+}
+
+.two-3-left {
+    float: left;
+    width: calc(100% - 200px);
+    height: 100px;
+    background-color: blue;
+}
+.two-3-right {
+    float: right;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.three-1-main {
+    float: left;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.three-1-main .body {
+    margin:0 210px;
+    background-color: aqua;
+    height: 100px;
+}
+.three-1-left {
+    float: left;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    margin-left:-100%;
+}
+.three-1-right {
+    float: left;
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    margin-left: -200px;
+}
+
+.three-2-left {
+    height: 100px;
+    width: 200px;
+    float: left;
+    background-color: blue;
+}
+.three-2-main {
+    height: 100px;
+    width: 500px;
+    float: left;
+    background-color: black;
+}
+.three-2-right {
+    height: 100px;
+    width: calc(100%-200px-500px);
+    background-color: red;
+}

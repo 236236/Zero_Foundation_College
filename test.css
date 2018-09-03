@@ -1,0 +1,21 @@
+.content{
+    position: relative;
+    width: 960px;
+    margin:0 auto;
+    height: 100%;
+}
+header{
+    height: 60px;
+    background-color:#333; 
+}
+header a:link{
+    color: white;
+}
+header .logo{
+    position: absolute;
+    top:30%;
+    color: white;
+}
+header nav{
+    float: right;
+}
